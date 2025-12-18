@@ -1,0 +1,68 @@
+{
+    "events": [
+      {
+        "type": "candidate-updated",
+        "date": "2025-01-10",
+        "id": "c1",
+        "navn": "Ola Nordmann",
+        "epostPrivat": "ola@gmail.com",
+        "discord": "olan#1234",
+        "telefon": "12345678"
+      },
+      {
+        "type": "candidate-updated",
+        "date": "2025-01-12",
+        "id": "c2",
+        "navn": "Kari Hansen",
+        "epostPrivat": "kari@gmail.com"
+      },
+      {
+        "type": "course-added",
+        "date": "2025-01-05",
+        "id": "course1",
+        "navn": "Frontend",
+        "oppstartsdato": "2025-02-01",
+        "avslutningsdato": "2025-05-30",
+        "pris": 45000
+      },
+      {
+        "type": "course-added",
+        "date": "2025-01-06",
+        "id": "course2",
+        "navn": "Start IT",
+        "oppstartsdato": "2025-01-20",
+        "avslutningsdato": "2025-02-20",
+        "pris": 15000
+      },
+      {
+        "type": "course-candidate-updated",
+        "date": "2025-01-15",
+        "courseId": "course1",
+        "candidateId": "c1",
+        "eventSubType": "søkt på kurs"
+      },
+      {
+        "type": "course-candidate-updated",
+        "date": "2025-01-20",
+        "courseId": "course1",
+        "candidateId": "c1",
+        "eventSubType": "godkjent på kurs"
+      },
+      {
+        "type": "course-candidate-updated",
+        "date": "2025-02-01",
+        "courseId": "course1",
+        "candidateId": "c1",
+        "eventSubType": "startet på kurs"
+      },
+      {
+        "type": "course-candidate-updated",
+        "date": "2025-02-15",
+        "courseId": "course1",
+        "candidateId": "c1",
+        "eventSubType": "delbetalt beløp for kurs",
+        "amount": 15000
+      }
+    ]
+  }
+  
